@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.java;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class ForkJoinWriter extends RecursiveAction {
 		this.inputLines = inputLines;
 	}
 
-	public static final int THRESHOLD=135;
+	public static final int THRESHOLD=100;
 	List<String> inputLines;
 
 	@Override

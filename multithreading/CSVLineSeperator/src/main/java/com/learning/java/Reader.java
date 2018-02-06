@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.java;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -21,6 +21,7 @@ public class Reader implements Runnable {
 	}
 
 	public void run() {
+		long startTime = System.currentTimeMillis();
 		String inputFileName = "/Multithreading_Task1_Books.csv";
 		List<String> inputLines = null;
 		URI uri;
@@ -37,6 +38,8 @@ public class Reader implements Runnable {
 		ForkJoinPool objForkJoinPool = new ForkJoinPool();
 		ForkJoinWriter objForkJoinWriter = new ForkJoinWriter(inputLines);
 		objForkJoinPool.invoke(objForkJoinWriter);
+		long endTime = System.currentTimeMillis();
+		System.out.println("total time taken " + (endTime - startTime) + "ms");
 	}
 
 }

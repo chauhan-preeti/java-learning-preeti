@@ -1,10 +1,8 @@
-package com.learning;
+package com.learning.java;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 public class ForkWriteToFile {
@@ -14,7 +12,6 @@ public class ForkWriteToFile {
 		PrintWriter writer = null;
 		try {
 			i++;
-			//String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 			writer = new PrintWriter("/home/preethi/Downloads/multithreading/output/" + timestamp + String.valueOf(i) + ".txt", "UTF-8");
 			writer.println(fileText);
 		} catch (FileNotFoundException e) {
