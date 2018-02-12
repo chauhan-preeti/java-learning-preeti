@@ -8,9 +8,7 @@
 		<artifactId>multithreading</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.java.learning</groupId>
 	<artifactId>WikiDescripton</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>WikiDescripton</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -23,7 +21,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+	   <dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>

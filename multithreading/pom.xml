@@ -12,5 +12,6 @@
   <modules>
   	<module>CSVLineSeperator</module>
     <module>WikiDescripton</module>
+    <module>DistinctWordCount</module>
   </modules>
 </project>
