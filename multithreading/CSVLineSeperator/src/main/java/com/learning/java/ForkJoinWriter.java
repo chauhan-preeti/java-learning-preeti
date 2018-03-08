@@ -23,7 +23,7 @@ public class ForkJoinWriter extends RecursiveAction {
 		this.inputLines = inputLines;
 	}
 
-	public static final Integer THRESHOLD=150;
+	public static final Integer THRESHOLD=10;
 	private List<String> inputLines;
 
 	@Override

@@ -39,7 +39,7 @@ public class Spilt {
 
 	/**
 	 * Method to get the execution path
-	 * @return String retruns the execution path
+	 * @return String returns the execution path
 	 */
 	public static String getPath() {
 		String path = "";

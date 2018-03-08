@@ -15,7 +15,7 @@ import com.learning.thread.Reader;
  * @author preethi
  *
  */
-public class TabSeparatedReader extends FileContentReader {
+public final class TabSeparatedReader extends FileContentReader {
 
 	private static Logger logger = Logger.getLogger(TabSeparatedReader.class.getName());
 

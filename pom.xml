@@ -11,5 +11,6 @@
     <module>Refactoring</module>
     <module>Collections</module>
     <module>Generics</module>
+    <module>ObserverTask</module>
   </modules>
 </project>
